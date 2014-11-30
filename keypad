@@ -98,21 +98,21 @@ xkb_symbols "x11" {
 
     include "keypad(operators)"
 
-    key  <KP7> {	[  Home,	KP_7	]	};
-    key  <KP8> {	[  KP_Up,	KP_8	]	};
-    key  <KP9> {	[  Prior,	KP_9	]	};
+    key  <KP7> {	[  Home,	Home,		KP_7,	KP_7	]	};
+    key  <KP8> {	[  KP_Up,	KP_Up,		KP_8,	KP_8	]	};
+    key  <KP9> {	[  Prior,	Prior,		KP_9,	KP_9	]	};
 
-    key  <KP4> {	[  KP_Left,	KP_4	]	};
-    key  <KP5> {	[  KP_Begin,	KP_5	]	};
-    key  <KP6> {	[  KP_Right,	KP_6	]	};
+    key  <KP4> {	[  KP_Left,	KP_Left,	KP_4,	KP_4	]	};
+    key  <KP5> {	[  KP_Begin,	KP_Begin,	KP_5,	KP_5	]	};
+    key  <KP6> {	[  KP_Right,	KP_Right,	KP_6,	KP_6	]	};
 
-    key  <KP1> {	[  End,		KP_1	]	};
-    key  <KP2> {	[  KP_Down,	KP_2	]	};
-    key  <KP3> {	[  Next,	KP_3	]	};
+    key  <KP1> {	[  End,		End,		KP_1,	KP_1	]	};
+    key  <KP2> {	[  KP_Down,	KP_Down,	KP_2,	KP_2	]	};
+    key  <KP3> {	[  Next,	Next,		KP_3,	KP_3	]	};
     key <KPEN> {	[	KP_Enter	]	};
     key <KPEQ> {	[	KP_Equal	]	};
 
-    key  <KP0> {	[  KP_Insert,	KP_0	]	};
+    key  <KP0> {	[  KP_Insert,	KP_Insert,	KP_0,	KP_0	]	};
     key <KPDL> {	[  KP_Delete,	KP_Decimal ]	};
     key <KPPT> {	[  KP_Decimal,	KP_Decimal ]	};
 };
